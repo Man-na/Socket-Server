@@ -5,4 +5,8 @@ spring:
   application:
     name: socket-server
 
+  data:
+    mongodb:
+      uri: ${MONGO_CHAT_DATA_URL:mongodb://localhost:27017/chatdb}
+
 
